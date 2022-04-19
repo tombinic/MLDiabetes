@@ -214,7 +214,7 @@ def subset_for_tsne(X_train, y_train):
     _, X_test_tsne, _, y_test_tsne = train_test_split(X_train, y_train, test_size = constants.TEST_SIZE_TSNE, stratify = y_train)
     return X_test_tsne, y_test_tsne
 
-#retrieve data from mongoDB
+#retrieve data from dataset
 def get_data():
     print("I'm loading data...")
     diabetes = pd.read_csv(constants.PATH)
