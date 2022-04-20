@@ -216,7 +216,7 @@ The algorithms used are:
 
 The following results were obtained:
 <p align="center">
-<img src="https://user-images.githubusercontent.com/91635053/164094345-7c8ca119-0553-4fc5-a4e3-d206f95b9d40.png" alt="alt text" width="500"/>
+<img src="https://user-images.githubusercontent.com/91635053/164094345-7c8ca119-0553-4fc5-a4e3-d206f95b9d40.png" alt="alt text" width="300"/>
 
 ## Fine tuning 📚
 > At this point, the model on which to carry out fine-tuning operations is GradientBoosting.
