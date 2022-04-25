@@ -69,6 +69,11 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 ```
 
+You can install directly all the libraries with requirements.txt file.
+```
+pip install -r /path/to/requirements.txt
+```
+
 ## Data exploration 👀
 > Now let's analyze the characteristics of the features.
 
