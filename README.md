@@ -299,7 +299,7 @@ Those chosen are:
 obtaining an accuracy of 75.12%.
   
 ## Evaluation ✅
-Now it is possible to train with the best parameters previously obtained and evaluate the final result no longer on the validation-set, but on the test-set. In addition to accuracy, a confusion matrix is presented.
+> Now it is possible to train with the best parameters previously obtained and evaluate the final result no longer on the validation-set, but on the test-set. In addition to accuracy, a confusion matrix is presented.
 ```python
 def final_evaluation_ts(X_train, y_train, X_test, y_test):
     print("\nEvaluation on test-set\n")
@@ -317,7 +317,7 @@ On the test set an accuracy of 74.90% was obtained.
 <img src="https://user-images.githubusercontent.com/91635053/164102646-479696e4-2440-4e2b-9828-690db66187de.png" alt="alt text" width="500"/>
   
 ## Extras ➕
-After the feature selection operation, the selected features became 6. Therefore a dimensionality reduction technique was applied to roughly understand the distribution of individuals with diabetes or not: t-SNE.
+> After the feature selection operation, the selected features became 6. Therefore a dimensionality reduction technique was applied to roughly understand the distribution of individuals with diabetes or not: t-SNE.
 If the entire dataset had been given as input to be processed by the t-SNE algorithm, surely there would have been computational problems related to the amount of records. To overcome this problem, the training-set was selected, on which a further selection was made by extracting 5%.
 Having thus formed a dataset of 2828 records, t-SNE becomes much less onerous. The proposed visualization is in both 2D and 3D.
 ```python
